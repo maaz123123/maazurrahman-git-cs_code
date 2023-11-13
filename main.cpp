@@ -1,24 +1,15 @@
 #include <iostream>
 using namespace std;
-
 int main ()
 {
-    int input;
-    int remainder;
+    int num1, num2;
+    int sum, difference, product, division, remainder, average;
 
-    cout << "please enter first number " << endl;
-    cin >> input;
+    cout << "enter 1st number" << endl;
+    cin >> num1;
 
-    remainder = input % 2;
-
-    if (remainder == 0) {
-    cout << input << " is an even number";
-    }
-
-    if (remainder !=0) {
-    cout << input << " is an odd number";
-    }
+    cout << "enter 2nd number " << endl;
+    cin >> num2;
 
     return 0;
-
 }
